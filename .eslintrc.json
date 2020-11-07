@@ -37,13 +37,15 @@
     "@typescript-eslint/ban-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "import/no-duplicates": "off",
     "react/prop-types": [
       2,
       {
         "ignore": [
           "children",
           "name",
-          "icon"
+          "icon",
+          "containerStyle"
         ]
       }
     ],
