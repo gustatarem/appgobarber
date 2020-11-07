@@ -29,3 +29,13 @@ export const UserAvatar = styled.Image`
   border-radius: 98px;
   align-self: center;
 `;
+
+export const LogOutButton = styled.TouchableOpacity``;
+
+export const LogOutButtonText = styled.Text`
+  font-size: 16px;
+  color: #f4ede8;
+  font-family: 'RobotoSlab-Medium';
+  text-align: center;
+  margin-top: 16px;
+`;
